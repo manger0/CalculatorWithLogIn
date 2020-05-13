@@ -8,7 +8,7 @@ function login (){
         if (document.getElementById("username").value == user.username &&
         document.getElementById("password").value == user.password) {
             alert("login success");
-            location.replace("file:///C:/Users/DCV/Desktop/Taschenrechner/calc.html")
+            location.replace("./calc.html")
         } else {
             alert("password/username problem")
         }   

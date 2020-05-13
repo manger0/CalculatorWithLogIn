@@ -198,6 +198,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function logout (){
-    location.replace("file:///C:/Users/DCV/Desktop/Taschenrechner/index.html");
+    location.replace("./index.html");
     alert("you are logged out");
 }
