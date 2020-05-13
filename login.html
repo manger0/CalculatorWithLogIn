@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <link href="./login.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./login.js"></script>
+    <head>
+        <h1>Taschenrechner login</h1>
+        <h6>gültiger name= user, passwort= user1 </h6>
+    </head>
+    <br>
+    <body action="action_page.php" method="post">
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input id="username" type="text" placeholder="Enter Username" required>
+          <label for="psw"><b>Password</b></label>
+          <input id="password" type="password" placeholder="Enter Password" required>
+          <button onclick="login()" type="submit">Login</button>
+        </div>
+    </body>
+    <br>
+    <footer>
+        <div class="imgcontainer">
+            <img src="https://cdn.prod.www.spiegel.de/images/3747b09f-0001-0004-0000-000000956536_w948_r1.77_fpx52.36_fpy49.93.jpg" alt="Avatar" class="avatar" >
+        </div>
+    </footer>   
+</html>
